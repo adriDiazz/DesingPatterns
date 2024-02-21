@@ -10,6 +10,7 @@ public class Log
         if(_instance == null)
         {
             _instance = new Log(path);
+
         }
 
         return _instance;
