@@ -2,7 +2,7 @@
 
 public class Log
 {
-    private static Log _instance = null;
+    private static Log? _instance = null;
     private string _path;
 
     public static Log GetInstance(string path)
